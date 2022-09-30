@@ -21,7 +21,9 @@ nav {
   flex-wrap: wrap;
   margin: auto;
   background: #00a8c7;
-  justify-content: space-between;
+  justify-content:space-between;
+  position: fixed;
+  top: 0;
 }
 
 nav ul {
@@ -45,19 +47,73 @@ nav img {
 }
 
 body {
-  background-color: black;
   color: white;
-  background-image: url(./hacker\ foto.webp);
-  background-position-x: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  
-
+  background-color: black;
 }
+
 
 footer {
   background-color: #00a8c7;
   height: 20vh;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  font-size: large;
+ padding-top: 5vh;
 }
+
+h1 {
+  text-align: center;
+  font-size: large;
+  font-size: 6rem;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: large;
+  font-size: 5rem;
+}
+
+p {
+  font-size: large;
+  width: 40vw;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  background-image: url(./hacker\ foto.webp);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.css-afbeelding {
+float: left;
+}
+.css-text {
+  float: right;
+}
+.java-afbeelding {
+  float: right;
+}
+  .java-text {
+    float:left ;
+  }
+  .php-afbeelding {
+    float: left;
+  }
+ .php-text {
+  float: right;
+ }
+.sql-text {
+  float: left;
+}
+.sql-afbeelding {
+  float: right;
+}
+
+
