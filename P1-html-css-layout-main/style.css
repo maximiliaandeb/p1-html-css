@@ -115,5 +115,36 @@ float: left;
 .sql-afbeelding {
   float: right;
 }
-
+ul {
+  list-style-type: none;
+  background-color:#00a8c7;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0,2);
+  z-index: 1;
+  min-width: 20vw;
+}
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  display:block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
