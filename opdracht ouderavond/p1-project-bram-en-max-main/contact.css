@@ -87,8 +87,13 @@ h2 {
     color: white;
 }
 p {
-    color: black
+    color: black;
+  
+    
 }
 footer {
  background-color: #47843D;
+}
+input {
+    align-items: baseline;
 }
