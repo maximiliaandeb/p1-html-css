@@ -1,16 +1,16 @@
 html {
-    font-family: 'Poppins', sans-serif;
-    background-color: #00432E;
-    font-size: 62,5%;
+  font-family: "Poppins", sans-serif;
+  background-color: #00432e;
+  font-size: 62,5%;
 }
 
 ul {
-  background-color: #006445;    
+  background-color: #006445;
   margin: 0;
   padding: 0;
   list-style-type: none;
-  overflow: hidden;  
-  border-bottom: 0.2em solid #FFFFFF ;    
+  overflow: hidden;
+  border-bottom: 0.2em solid #ffffff;
 }
 
 li {
@@ -20,101 +20,90 @@ li {
 li a {
   text-decoration: none;
   display: block;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 15px 17px;
 }
 
 li a:hover {
   text-decoration: underline;
-  background-color: #FFFFFF;
-  color: #00432E;
+  background-color: #ffffff;
+  color: #00432e;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  
 }
 
 li.contact {
-    float: right;
-    background-color: #47843D;  
+  float: right;
+  background-color: #006445;
 }
 
 .h1home {
-    text-align: center;
-    color: #FFFFFF;
+  text-align: center;
+  color: #ffffff;
 }
 
 section {
-    margin: 5vh 12vw;
-    padding: 1.5vh 1.5vw;
-    background-color: #FFFFFF;
-    border: 0.2em solid #47843D
+  margin: 5vh 12vw;
+  padding: 1.5vh 1.5vw;
+  background-color: #ffffff;
+  border: 0.2em solid #47843d;
 }
 
 section h1 {
-    color: #006445;
-    font-size: 2rem;
+  color: #006445;
+  font-size: 2rem;
 }
 
 section h2 {
-    color: #006445;
-    font-size: 1.5rem;
-    margin-top: 7vh;
-    text-decoration: underline;
+  color: #006445;
+  font-size: 1.5rem;
+  margin-top: 7vh;
+  text-decoration: underline;
 }
 
-.button1 {
-    padding: 1vh 1vw;
-    background-color: #47843D;
-    color: #FFFFFF;
-    transition-duration: 0.5s;
-    border-radius: 10px;
-    font-size: 1rem;
+.button1, .button2 {
+  padding: 1vh 1vw;
+  background-color: #47843d;
+  color: #ffffff;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  font-size: 1rem;
 }
 
-.button1:hover {
-    background-color: #006445;
-}
-
-.button2 {
-    padding: 1vh 1vw;
-    background-color: #47843D;
-    color: #FFFFFF;
-    transition-duration: 0.5s;
-    border-radius: 10px;
-    font-size: 1rem;
-}
-
-.button2:hover {
-    background-color: #006445;
+.button1:hover, .button2:hover {
+  background-color: #006445;
 }
 
 footer {
-    background-color: #006445;
+  background-color: #006445;
+  bottom: 0;
+  margin: 0;
 }
 
 .mainblock1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .mainblock1 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .mainblock1 p {
-    font-weight: bold;
-    font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .mainblock1 div {
-    width: 30vw;
-    text-align: center;
+  width: 30vw;
+  text-align: center;
 }
 
 .mainblock1 img {
-    object-fit: cover;
-    width: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
-.mainblock1 p {
-
-}
