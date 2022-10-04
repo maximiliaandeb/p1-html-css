@@ -1,0 +1,27 @@
+.flexboxcontainer {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.box1, .box2, .box3, .box4 {
+    height: 200px;
+    width: 200px;
+}
+
+.box1 {
+    background-color: #0823F9;
+}
+
+.box2 {
+    background-color: #000000;
+}
+
+.box3 {
+    background-color: #FF0B00;
+}
+
+.box4 {
+    background-color: #007F1D;
+}
