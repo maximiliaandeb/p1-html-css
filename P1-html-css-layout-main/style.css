@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Goldman", cursive;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content:space-between;
+  position: fixed;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav img {
+  width: 5vw;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+
+footer {
+  background-color: #00a8c7;
+  height: 20vh;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  font-size: large;
+ padding-top: 5vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: large;
+  font-size: 6rem;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: large;
+  font-size: 5rem;
+}
+
+p {
+  font-size: large;
+  width: 40vw;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  background-image: url(./hacker\ foto.webp);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.css-afbeelding {
+float: left;
+}
+.css-text {
+  float: right;
+}
+.java-afbeelding {
+  float: right;
+}
+  .java-text {
+    float:left ;
+  }
+  .php-afbeelding {
+    float: left;
+  }
+ .php-text {
+  float: right;
+ }
+.sql-text {
+  float: left;
+}
+.sql-afbeelding {
+  float: right;
+}
+ul {
+  list-style-type: none;
+  background-color:#00a8c7;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0,2);
+  z-index: 1;
+  min-width: 20vw;
+}
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  display:block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+

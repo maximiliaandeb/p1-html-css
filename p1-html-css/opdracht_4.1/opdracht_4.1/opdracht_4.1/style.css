@@ -1,0 +1,59 @@
+h1 {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+p {
+    color: #4D4D4D;
+
+
+
+}
+
+header {
+    font-weight: bold;
+    width: 100%;
+    height: 33%;
+    background-image: url(./4.2\ afbeelding.jpg);
+    background-position: center;
+
+
+
+
+}
+
+a {
+    color: #8A2BE2
+}
+
+img {
+    width: 50%;
+}
+
+header h1 {
+    color: white;
+}
+
+header p {
+    color: white;
+}
+
+article {
+    border: 8px solid #8A2BE2;
+    border-left-width: 12px;
+
+}
