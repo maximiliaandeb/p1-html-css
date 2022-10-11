@@ -1,7 +1,7 @@
 html {
   font-family: "Poppins", sans-serif;
   background-color: #00432e;
-  font-size: 62,5%;
+  font-size: 62, 5%;
 }
 
 ul {
@@ -13,7 +13,7 @@ ul {
   border-bottom: 0.2em solid #ffffff;
   box-shadow: 0 8px 6px -6px black;
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
 }
 
 li {
@@ -29,13 +29,13 @@ li {
 }
 
 .dropdown-content a {
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0.8rem 1rem;
   text-align: left;
 }
 
 .dropdown-content a:hover {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -62,21 +62,19 @@ li a {
 
 li a:hover {
   text-decoration: underline;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #00432e;
-
 }
 
 .activepage {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #00432e;
 }
 
 .h1home {
   text-align: center;
   color: #ffffff;
-  font-size: 200%
-  tex
+  font-size: 20rem;
 }
 
 section {
@@ -84,12 +82,24 @@ section {
   padding: 1.5vh 1.5vw;
   background-color: #ffffff;
   border: 0.2em solid #47843d;
-  box-shadow: 10px 10px 10px -2px black;
+  box-shadow: 0 0 20px black;
+}
+
+.h1homesection {
+  border-radius: 25px;
+  background-color:#47843d;
+  border-color: #005339;
+  color: #ffffff;
+  text-decoration: underline;
+  
 }
 
 section h1 {
-  color: #006445;
-  font-size: 2rem;
+ font-size: 3rem 
+}
+
+.h1allpages {
+  color: #005339;
 }
 
 section h2 {
@@ -112,6 +122,14 @@ section h2 {
   background-color: #006445;
 }
 
+.sectionhometext1 {
+  flex-direction: column;
+}
+
+.sectionhometext2 {
+  flex-direction: column;  
+}
+
 footer {
   display: flex;
   background-color: #006445;
@@ -121,14 +139,13 @@ footer {
   border-top: 0.2em solid #ffffff;
   box-shadow: 0 0 8px black;
   justify-content: space-evenly;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 25vh;
-  }
+}
 
 .footertoptext {
   text-decoration: underline;
   font-weight: bold;
-  color: #dbdbdb;
 }
 
 .footerimage {
@@ -158,18 +175,32 @@ footer {
 .mainblock1 div {
   width: 30vw;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mainblock1 img {
   object-fit: cover;
-  width: 100%;
+  width: 30vw;
+  display: flex;
+  align-items: center;
 }
 
 .aboutush1 {
   color: #FFFFFF;
 }
 
-.afbeeldingcontact {
+.contactdiv {
   display: flex;
-  
+}
+
+.buttoncontact {
+  padding: 1vh 1vw;
+  background-color: #47843d;
+  color: #ffffff;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
