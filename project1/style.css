@@ -188,7 +188,7 @@ footer {
 }
 
 .aboutush1 {
-  color: #FFFFFF;
+  color: #00432e;
 }
 
 .contactdiv {
@@ -204,3 +204,31 @@ footer {
   font-size: 1rem;
   margin-top: 2rem;
 }
+.aboutusdiv {
+  display: flex;
+}
+
+.aboutusimg {
+ width: 40vw;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.aboutusimg img {
+  width: 40vw;
+}
+.aboutusbutton {
+  padding: 1vh 1vw;
+  background-color: #47843d;
+  color: #ffffff;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.aboutusbutton a {
+  text-decoration: none;
+  color: #ffffff  ;
+}
+
