@@ -100,6 +100,7 @@ section {
   width: 64vw;
   padding: 3vw;
   margin-top: 8vh;
+  border-radius: 1rem;
 }
 
 .apptext {
@@ -142,6 +143,11 @@ section h3 {
   transition-duration: 0.5s;
   border-radius: 10px;
   font-size: 1rem;
+}
+
+.button1 a, .button2 a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .button1:hover,
@@ -290,4 +296,16 @@ footer {
   display: flex;
   height: 50vh;
   width: 50vw;
+}
+
+.appimage-text {
+  display: flex;
+}
+
+.appimage-text img {
+  border-radius: 1.5rem;
+}
+
+.canvash2 {
+  padding-top: 2rem;
 }
