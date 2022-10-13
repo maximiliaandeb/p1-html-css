@@ -13,6 +13,7 @@ body {
   overflow-x: hidden;
   position: relative;
   min-height: 100vh;
+  padding-bottom: 16rem;
 }
 
 ul {
@@ -96,9 +97,13 @@ section {
   border: 0.2em solid #47843d;
   box-shadow: 0 0 20px black;
   margin: 0 auto;
-  width: 60vw;
-  padding: 5vw;
+  width: 64vw;
+  padding: 3vw;
   margin-top: 8vh;
+}
+
+.apptext {
+  margin-bottom: 3vh;
 }
 
 .h1homesection {
@@ -120,7 +125,6 @@ section h1 {
 section h2 {
   color: #006445;
   font-size: 1.5rem;
-  margin-top: 7vh;
   text-decoration: underline;
 }
 
@@ -180,7 +184,7 @@ footer {
 
 .footerimage {
   display: flex;
-  height: ;
+  /* height: ; */
 }
 
 .footerimagestyle {
@@ -216,4 +220,7 @@ footer {
   width: 30vw;
   display: flex;
   align-items: center;
+  border-radius: 8px;
 }
+
+
