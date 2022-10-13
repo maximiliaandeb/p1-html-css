@@ -87,15 +87,15 @@ section {
 
 .h1homesection {
   border-radius: 25px;
-  background-color:#47843d;
+  background-color: #47843d;
   border-color: #005339;
   color: #ffffff;
   text-decoration: underline;
-  
+
 }
 
 section h1 {
- font-size: 3rem 
+  font-size: 3rem
 }
 
 .h1allpages {
@@ -109,7 +109,8 @@ section h2 {
   text-decoration: underline;
 }
 
-.button1, .button2 {
+.button1,
+.button2 {
   padding: 1vh 1vw;
   background-color: #47843d;
   color: #ffffff;
@@ -118,7 +119,8 @@ section h2 {
   font-size: 1rem;
 }
 
-.button1:hover, .button2:hover {
+.button1:hover,
+.button2:hover {
   background-color: #006445;
 }
 
@@ -127,7 +129,7 @@ section h2 {
 }
 
 .sectionhometext2 {
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 footer {
@@ -204,19 +206,21 @@ footer {
   font-size: 1rem;
   margin-top: 2rem;
 }
+
 .aboutusdiv {
   display: flex;
 }
 
 .aboutusimg {
- width: 40vw;
- display: flex;
- justify-content: flex-end;
+  width: 40vw;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .aboutusimg img {
   width: 40vw;
 }
+
 .aboutusbutton {
   padding: 1vh 1vw;
   background-color: #47843d;
@@ -229,6 +233,16 @@ footer {
 
 .aboutusbutton a {
   text-decoration: none;
-  color: #ffffff  ;
+  color: #ffffff;
 }
 
+.tekstbram {
+  display: flex;
+  flex-direction: column;
+}
+
+.fotobram {
+  display: flex;
+  height: 50vh;
+  width: 50vw;
+}
