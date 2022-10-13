@@ -34,24 +34,49 @@
       </nav>
     </header>
     <section>
-      <h1>Contact</h1>
+      <h1 class="h1allpages">Contact</h1>
       <h2>Contactformulier</h2>
-      <p>Voornaam: <input type="voornaam" /></p>
-      <p>Achternaam: <input type="achternaam" /></p>
-      <p>Email: <input type="email" /></p>
-      <p>Onderwerp: <input type="onderwerp" /></p>
-      <button class="button1">Versturen</button>
-      <img
+      <div class="contactdiv">
+      <form action="contact.html">
+      <p>Voornaam:</p>
+      <input type="text" required>
+      <p>Achternaam:</p>
+      <input type="text" required>
+      <p>Email:</p>
+      <input type="email" required>
+      <p>Onderwerp:</p>
+      <input type="text" required>
+      <button class="buttoncontact">Versturen</button>
+    </form>
+      <img 
         src="img/contact.afbeelding.png"
         alt="afbeelding_contact"
-        class="afbeelding"
+        class="afbeeldingcontact"
         width="80%"
       />
+    </div>
     </section>
     <footer>
-      <p>made by maximiliaan en bram</p>
-      <p>locaties: schiedam rotterdam spijkenisse</p>
-      <p>social media: instagram facebook youtube</p>
+      <div class="footertext">
+        <p class="footertoptext">Gemaakt door:</p>
+        <p>Maximiliaan</p>
+        <p>Bram</p>
+      </div>
+      <div class="footertext">
+        <p class="footertoptext">Social Media:</p>
+        <p>Instagram</p>
+        <p>Facebook</p>
+        <p>Youtube</p>
+      </div>
+      <div class="footertext">
+        <p class="footertoptext">Locaties:</p>
+        <p>Rotterdam</p>
+        <p>Schiedam</p>
+        <p>Spijkenisse</p>
+      </div>
+      <div class="footerimage">
+        <img class="footerimagestyle" src="img/tcrlogo2.png" />
+      </div>
     </footer>
   </body>
 </html>
