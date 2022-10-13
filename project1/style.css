@@ -223,4 +223,31 @@ footer {
   border-radius: 8px;
 }
 
+.aboutush1 {
+  color: #FFFFFF;
+}
 
+.contactdiv {
+  display: flex;
+}
+
+.buttoncontact {
+  padding: 1vh 1vw;
+  background-color: #47843d;
+  color: #ffffff;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.studenthead {
+  display: flex;
+}
+.studenthead img {
+  display: flex;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
