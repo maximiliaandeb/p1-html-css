@@ -342,3 +342,18 @@ footer {
 .canvash2 {
   padding-top: 2rem;
 }
+
+.parentsimg {
+ height: 70vh;
+ width: 50vw;
+ display: flex;
+}
+
+.parentsdiv {
+display: flex;
+}
+
+.parentstext {
+  display: flex;
+  flex-direction: column;
+}
