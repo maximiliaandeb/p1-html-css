@@ -113,11 +113,10 @@ section {
   border-color: #005339;
   color: #ffffff;
   text-decoration: underline;
-
 }
 
 section h1 {
-  font-size: 3rem
+  font-size: 3rem;
 }
 
 .h1allpages {
@@ -145,8 +144,9 @@ section h3 {
   font-size: 1rem;
 }
 
-.button1 a, .button2 a {
-  color: #FFFFFF;
+.button1 a,
+.button2 a {
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -166,7 +166,7 @@ section h3 {
 }
 
 .button-ed a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -181,7 +181,7 @@ section h3 {
 
 .ed-video {
   display: flex;
-  width: 60vw;  
+  width: 60vw;
   margin: auto;
   border: 0.2em solid #000000;
   border-radius: 5px;
@@ -344,14 +344,21 @@ footer {
 }
 
 .parentsimg {
- display: flex;
+  height: 70vh;
+  width: 50vw;
+  display: flex;
 }
 
 .parentsdiv {
-display: flex;
+  display: flex;
 }
 
 .parentstext {
   display: flex;
   flex-direction: column;
+}
+
+.images-software {
+  display: flex;
+  justify-content: space-around;
 }
