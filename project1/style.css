@@ -362,3 +362,12 @@ footer {
   display: flex;
   justify-content: space-around;
 }
+
+table, th, tr {
+  border: 1px solid;
+}
+
+thead {
+  color:#47843d;
+  text-decoration: underline;
+}
