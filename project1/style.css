@@ -364,7 +364,8 @@ footer {
 }
 
 table, th, tr {
-  border: 1px solid;
+  border: 2px solid;
+  border-collapse: collapse;
 }
 
 thead {
