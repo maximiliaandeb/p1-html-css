@@ -363,12 +363,18 @@ footer {
   justify-content: space-around;
 }
 
-table, th, tr {
+table,
+th,
+tr {
   border: 2px solid;
   border-collapse: collapse;
 }
 
 thead {
-  color:#47843d;
+  color: #47843d;
   text-decoration: underline;
+}
+
+.bpvtext {
+  margin-top: 4vh;
 }
