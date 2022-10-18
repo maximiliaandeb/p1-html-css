@@ -52,10 +52,18 @@
           <input class="apptext" type="text" required />
           <p>Achternaam:</p>
           <input class="apptext" type="text" required />
-          <p>Geslacht </p>
-            <input class="apptext" type="text" required>
+          <p>Geslacht: </p>
+          <div>
+            <input type="radio" name="genderselect" required>
+            <label for="gender1">Man</label><br>
+            <input type="radio" name="genderselect" required>
+            <label for="gender2">Vrouw</label><br>
+            <input class="apptext" type="radio" name="genderselect" required>
+            <label for="gender3">Anders</label><br>
+          </div>
+        
           <p>Telefoonnummer: </p>
-            <input class="apptext" type="number" required>
+            <input class="apptext" type="tel" pattern="[0-9]{10}" required>
           <p>Email:</p>
           <input class="apptext" type="email" required />
           <p>Onderwerp:</p>
