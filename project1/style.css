@@ -268,6 +268,7 @@ footer {
 
 .contactdiv {
   display: flex;
+  justify-content: space-between ;
 }
 
 .buttoncontact {
@@ -377,4 +378,8 @@ thead {
 
 .bpvtext {
   margin-top: 4vh;
+}
+
+.apptext1 {
+  margin-top: 3vh;
 }

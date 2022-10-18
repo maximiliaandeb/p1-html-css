@@ -39,37 +39,36 @@
       </ul>
     </nav>
   </header>
-  <section>
-    <h1 class="aboutush1">Over ons</h1>
-    <div class="aboutusdiv">
-      <div>
-        <h2>Welkom op Techniek College Rotterdam!</h2>
-        <p>
-          Op deze Techniek College locatie kan je de IT en Online opleidingen
-          volgen
-        </p>
-        <p>
-          De opleidingen die wij hier aanbieden zijn: Allround medewerker
-          system and devices, Expert IT system and devices, Software developer
-          en Software Developer-Creative Media Technology
-        </p>
-        <button class="aboutusbutton">
-          <a href="https://www.techniekcollegerotterdam.nl/locaties/sportlaan" target="_blank">Website TCR</a>
-        </button>
-        <p>
-          In de locatiegids kunt u de meer specifieke informatie vinden over
-          onze locatie
-        </p>
-        <button class="aboutusbutton">
-          <a
-            href="https://techniekcollegerotterdam-production-images-s3bucket.s3.eu-central-1.amazonaws.com/ntqh3hz0cbdupr4y9ql6rx40yoz7?response-content-disposition=inline%3B%20filename%3D%22Locatiegids%20Sportlaan%2022-23.pdf%22%3B%20filename%2A%3DUTF-8%27%27Locatiegids%2520Sportlaan%252022-23.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA345T7DJ3BXOCWR46%2F20221017%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20221017T120506Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=9b12eb83788d5c39a1c2bbe682bde5ce6dffa03c275cc9084d382e72a1d54398" target="_blank">Locatiegids</a>
-        </button>
-      </div>
-      <div class="aboutusimg">
-        <img src="./img/aboutusafbeelding.jpg" alt="afbeelding_school" />
-      </div>
-    </div>
-  </section>
+<section>
+    <h1 class="h1allpages">Review</h1>
+    <div class="contactdiv">
+        <form action="review.html">
+            <p>Naam:</p>
+            <input class="apptext" type="text" required />
+            <p>Geslacht: </p>
+            <div>
+              <input type="radio" name="genderselect" required>
+              <label for="gender1">Man</label><br>
+              <input type="radio" name="genderselect" required>
+              <label for="gender2">Vrouw</label><br>
+              <input class="apptext" type="radio" name="genderselect" required>
+              <label for="gender3">Anders</label><br>
+            </div>
+            <p>Telefoonnummer: </p>
+              <input class="apptext" type="tel" pattern="[0-9]{10}" required>
+            <p>Email:</p>
+            <input class="apptext" type="email" required />
+            <p>Beoordeling</p>
+            <input id="number" type="number" min="0" max="10" required><br>
+            <p class="apptext1">Enthousiasme</p>
+            <input class="apptext" type="range" id="vol" name="vol" min="0" max="10" required><br>
+
+            <button class="buttoncontact">Versturen</button>
+          </form>
+          <img src="img/Beoordeling.png" alt="afbeelding_review"
+          class="afbeeldingreview"
+          width="80%">
+</section>
   <footer>
     <div class="footertext">
       <p class="footertoptext">Gemaakt door:</p>
@@ -93,5 +92,4 @@
     </div>
   </footer>
 </body>
-
 </html>
