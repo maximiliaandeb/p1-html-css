@@ -268,7 +268,7 @@ footer {
 
 .contactdiv {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
 }
 
 .buttoncontact {
@@ -281,16 +281,18 @@ footer {
   margin-top: 2rem;
 }
 
-.studenthead {
-  display: flex;
+@media screen and (max-width: 786px) {
+
+
+  .studenthead img {
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2rem;
+    margin-left: 2rem;
+  }
 }
-.studenthead img {
-  display: flex;
-  width: 20vw;
-  height: 20vw;
-  border-radius: 2rem;
-  margin-left: 2rem;
-}
+
 .aboutusdiv {
   display: flex;
 }
