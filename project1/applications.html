@@ -1,75 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>Applicaties</title>
-    
-</head>
-<body>
-<header>
-    <nav>
+  </head>
+  <body>
+    <header>
+      <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="eduaction.html">Onderwijs</a></li>
-            <li class="dropdown">
-                <a href="" class="dropbtn">Studenten</a>
-                <div class="dropdown-content">
-                  <a href="studentbram.html">Bram van Dijke</a>
-                  <a class="bottomselect" href="studentmax.html">Maximiliaan de Bruijn</a>
-                </div>
-              </li>
-            <li><a href="parents.html">Ouders</a></li>
-            <li><a href="aboutus.html">Over ons</a></li>
-            <li><a href="applications.html">Applicaties</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="eduaction.html" class="dropbtn">Onderwijs</a>
+            <div class="dropdown-content">
+              <a href="software.html">Software</a>
+              <a href="examenplan.html">Examenplan</a>
+              <a href="bsa.html">Bindend Studie Advies</a>
+              <a class="bottomselect" href="opleidingswijzer.html"
+                >Opleidingswijzer</a
+              >
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Studenten</a>
+            <div class="dropdown-content">
+              <a href="studentbram.html">Bram van Dijke</a>
+              <a class="bottomselect" href="studentmax.html"
+                >Maximiliaan de Bruijn</a
+              >
+            </div>
+          </li>
+          <li><a href="parents.html">Ouders</a></li>
+          <li><a href="aboutus.html">Over ons</a></li>
+          <li><a href="applications.html">Applicaties</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="review.html">Review</a></li>
         </ul>
-    </nav>
-</header>
-<main>
-    <section>
+      </nav>
+    </header>
+    <main>
+      <section>
         <h1 class="h1allpages">Applicaties</h1>
         <h2>Eduarte</h2>
-        <p>De applicatie 'Eduarte' is essentieël voor deze school. Via Eduarte worden de cijfers bijgehouden, kan je het rooster bekijken en je aanwezigheid zien/bijwerken. Als u op de knop met 'Eduarte' erop klikt, wordt u verwezen naar de Eduarte site.</p>
-        <img src="img/1530863648258.jfif" width="200vw">
+        <div class="appimage-text">
+        <p class="apptext">
+          De applicatie 'Eduarte' is essentieël voor deze school. Via Eduarte
+          worden de cijfers bijgehouden, kan je het rooster bekijken en je
+          aanwezigheid zien/bijwerken. Als u op de knop met 'Eduarte' erop
+          klikt, wordt u verwezen naar de Eduarte site. Op school gebruiken wij het allemaal. Zowel studenten als docenten gebruiken het.
+        </p>
+        <img src="img/1530863648258.jfif" width="150vw" />
+      </div>
         <h3>Cijfers</h3>
-        <p>Zoals hierboven beschreven is het mogelijk om je cijfers te zien die je hebt behaald. De cijfers zijn te zien in een lijst onder elkaar door middel van een tabel. Het wordt weergegeven in procenten, niet in cijfers. De volgende vakken worden getoond op de website. Rekenen, Nederlands, Engels, Ontwerpen, Programmeren en je Project. Al deze vakken worden beoordeelt op deze opleiding.</p>
+        <p class="apptext">
+          Zoals hierboven beschreven is het mogelijk om je cijfers te zien die
+          je hebt behaald. De cijfers zijn te zien in een lijst onder elkaar
+          door middel van een tabel. Het wordt weergegeven in procenten, niet in
+          cijfers. De volgende vakken worden getoond op de website. Rekenen,
+          Nederlands, Engels, Ontwerpen, Programmeren en je Project. Al deze
+          vakken worden beoordeelt op deze opleiding.
+      </p>
         <h3>Rooster</h3>
-        <p>Ook is het mogelijk om het rooster te bekijken via Eduarte. Op het rooster is het mogelijk om de lessen te zien wanneer en waar die gaan plaatsvinden. Ook is er te zien welke docent gebonden is met die les. Dit is allemaal te zien in een eenvoudig overzicht. </p>
+        <p class="apptext">
+          Ook is het mogelijk om het rooster te bekijken via Eduarte. Op het
+          rooster is het mogelijk om de lessen te zien wanneer en waar die gaan
+          plaatsvinden. Ook is er te zien welke docent gebonden is met die les.
+          Dit is allemaal te zien in een eenvoudig overzicht.
+        </p>
         <h3>Aanwezigheid</h3>
-        <button onclick="location.href = 'https://tcr-student.educus.nl/';" class="button1">Eduarte</button><br>
-        
-        <h2>Canvas</h2>
-        <p>De applicatie 'Canvas' is ook erg belangrijk voor deze school. Via Canvas is de kalender te zien, cursussen bekijken en is inbox aanwezig en er is ook een app. Als u op de knop met 'Canvas' erop klikt, wordt u verwezen naar de Canvas site.</p>
-        <img src="img/canvaslogo.png" width="200vw">
-        <button onclick="location.href = 'https://flexedu.instructure.com/';" class="button2">Canvas</button><br>
-
+        <p class="apptext">
+          Ook is er een tabje op Eduarte waar je de aanwezigheid van de
+          betreffende student kan bekijken. Er is te zien hoeveel uren de
+          student aanwezig en afwezig is geweest. Ook is aangegeven de absentie
+          wel geoorloofd is. Bij de presentie is er te zien hoeveel procent en
+          uren je aanwezig bent geweest. Ook zijn de stageuren daar te zien,
+          maar dit is in jaar 1 nog niet van toepassing. Dit staat allemaal in
+          een overzicht op Eduarte.
+        </p>
+      </p>
+      <h3>App</h3>
+      <p class="apptext">
+        Er is ook een app van Eduarte die je kan downloaden op je telefoon. De app is beschikbaar op zowel android als apple. Via de app kan je de bovenstaande onderdelen zien zonder de website te moeten openen.
+      </p>
+      <button class="button1"><a href="https://tcr-student.educus.nl/">Eduarte</a></button>
+      <br />
     </section>
-</main>
-<footer>
-    <div class="footertext">
-      <p class="footertoptext">Gemaakt door:</p>
-      <p>Maximiliaan</p>
-      <p>Bram</p>
-    </div>
-    <div class="footertext">
-      <p class="footertoptext">Social Media:</p>
-      <p>Instagram</p>
-      <p>Facebook</p>
-      <p>Youtube</p>
-    </div>
-    <div class="footertext">
-      <p class="footertoptext">Locaties:</p>
-      <p>Rotterdam</p>
-      <p>Schiedam</p>
-      <p>Spijkenisse</p>
-    </div>
-    <div class="footerimage">
-      <img class="footerimagestyle" src="img/tcrlogo2.png" />
-    </div>
-  </footer>
-</body>
+    <section>
+        <h2 class="canvash2">Canvas</h2>
+        <div class="appimage-text">
+        <p class="apptext">
+          De applicatie 'Canvas' is ook erg belangrijk voor deze school. Via
+          Canvas is de kalender te zien, cursussen bekijken en is inbox aanwezig
+          en er is ook een app. Als u op de knop met 'Canvas' erop klikt, wordt
+          u verwezen naar de Canvas site. Op school gebruiken wij het allemaal. Zowel studenten als docenten gebruiken het. 
+        </p>
+        <img src="img/canvaslogo.png" width="150vw" />
+      </div>
+        <h3>Kalender</h3>
+        <p class="apptext">
+          Hier kunnen studenten eenvoudig zien in een kalender zien wat voor opdrachten ze moeten maken. Er wordt aangegeven wanneer je de opdracht in moet leveren en voor welk vak de opdracht is. Als de opdracht is ingeleverd, dan wordt de opdracht doorgestreept en is te zien dat de opdracht gemaakt is.
+        </p>
+        <h3>Cursussen</h3>
+        <p class="apptext">
+          Bij het tabje 'Cursussen' kan de student de vakken zien. Zo kan de student per vak goed zien welke opdrachten hij/zij moeten maken en ook kan de student de theorie zien die hij/zij moet leren. Ook is er een planning te zien over wat er te doen in is de weken. Dit staat in een tabel en daarin staan de weken met wat we dan leren.
+        </p>
+        <h3>Inbox</h3>
+        <p class="apptext">
+          De inbox hebben wij nu nog niet gebruikt. Waar de inbox voor gebruikt gaat worden is voor emails. Als docenten een mail sturen naar je, kan je die bekijken via de inbox op Canvas.
+        </p>
+
+      </p>
+      <h3>App</h3>
+      <p class="apptext">
+        Ook is er een app van Canvas die je kan gebruiken. Deze is te downloaden op zowel apple als android. Met deze app kan je bijna net zoveel zien als je kan zien op de website (zoals je kalender bijvoorbeeld).
+      </p>
+      <button class="button1"><a href="https://flexedu.instructure.com/">Canvas</a></button>
+       <br />
+      </section>
+    </main>
+    <footer>
+      <div class="footertext">
+        <p class="footertoptext">Gemaakt door:</p>
+        <p>Maximiliaan</p>
+        <p>Bram</p>
+      </div>
+      <div class="footertext">
+        <p class="footertoptext">Social Media:</p>
+        <p>Instagram</p>
+        <p>Facebook</p>
+        <p>Youtube</p>
+      </div>
+      <div class="footertext">
+        <p class="footertoptext">Locaties:</p>
+        <p>Rotterdam</p>
+        <p>Schiedam</p>
+        <p>Spijkenisse</p>
+      </div>
+      <div class="footerimage">
+        <img class="footerimagestyle" src="img/tcrlogo2.png" />
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <title>Over ons</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="eduaction.html" class="dropbtn">Onderwijs</a>
+          <div class="dropdown-content">
+            <a href="software.html">Software</a>
+            <a href="examenplan.html">Examenplan</a>
+            <a href="bsa.html">Bindend Studie Advies</a>
+            <a class="bottomselect" href="opleidingswijzer.html">Opleidingswijzer</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn">Studenten</a>
+          <div class="dropdown-content">
+            <a href="studentbram.html">Bram van Dijke</a>
+            <a class="bottomselect" href="studentmax.html">Maximiliaan de Bruijn</a>
+          </div>
+        </li>
+        <li><a href="parents.html">Ouders</a></li>
+        <li><a href="aboutus.html">Over ons</a></li>
+        <li><a href="applications.html">Applicaties</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="review.html">Review</a></li>
+      </ul>
+    </nav>
+  </header>
+<section>
+    <h1 class="h1allpages">Review</h1>
+    <div class="contactdiv">
+        <form action="review.html">
+            <p>Naam:</p>
+            <input class="apptext" type="text" required />
+            <p>Geslacht: </p>
+            <div>
+              <input type="radio" name="genderselect" required>
+              <label for="gender1">Man</label><br>
+              <input type="radio" name="genderselect" required>
+              <label for="gender2">Vrouw</label><br>
+              <input class="apptext" type="radio" name="genderselect" required>
+              <label for="gender3">Anders</label><br>
+            </div>
+            <p>Telefoonnummer: </p>
+              <input class="apptext" type="tel" pattern="[0-9]{10}" required>
+            <p>Email:</p>
+            <input class="apptext" type="email" required />
+            <p>Beoordeling:</p>
+            <input id="number" type="number" min="0" max="10" required><br>
+            <p class="apptext1">Enthousiasme:</p>
+            <input class="apptext" type="range" id="vol" name="vol" min="0" max="10" required><br>
+
+            <button class="buttoncontact">Versturen</button>
+          </form>
+          <img src="img/Beoordeling.png" alt="afbeelding_review"
+          class="afbeeldingreview"
+          width="80%">
+</section>
+  <footer>
+    <div class="footertext">
+      <p class="footertoptext">Gemaakt door:</p>
+      <p>Maximiliaan</p>
+      <p>Bram</p>
+    </div>
+    <div class="footertext">
+      <p class="footertoptext">Social Media:</p>
+      <p>Instagram</p>
+      <p>Facebook</p>
+      <p>Youtube</p>
+    </div>
+    <div class="footertext">
+      <p class="footertoptext">Locaties:</p>
+      <p>Rotterdam</p>
+      <p>Schiedam</p>
+      <p>Spijkenisse</p>
+    </div>
+    <div class="footerimage">
+      <img class="footerimagestyle" src="img/tcrlogo2.png" />
+    </div>
+  </footer>
+</body>
+</html>

@@ -16,7 +16,17 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="eduaction.html">Onderwijs</a></li>
+          <li class="dropdown">
+            <a href="eduaction.html" class="dropbtn">Onderwijs</a>
+            <div class="dropdown-content">
+              <a href="software.html">Software</a>
+              <a href="examenplan.html">Examenplan</a>
+              <a href="bsa.html">Bindend Studie Advies</a>
+              <a class="bottomselect" href="opleidingswijzer.html"
+                >Opleidingswijzer</a
+              >
+            </div>
+          </li>
           <li class="dropdown">
             <a href="" class="dropbtn">Studenten</a>
             <div class="dropdown-content">
@@ -30,6 +40,7 @@
           <li><a href="aboutus.html">Over ons</a></li>
           <li><a href="applications.html">Applicaties</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="review.html">Review</a></li>
         </ul>
       </nav>
     </header>
@@ -37,24 +48,36 @@
       <h1 class="h1allpages">Contact</h1>
       <h2>Contactformulier</h2>
       <div class="contactdiv">
-      <form action="contact.html">
-      <p>Voornaam:</p>
-      <input type="text" required>
-      <p>Achternaam:</p>
-      <input type="text" required>
-      <p>Email:</p>
-      <input type="email" required>
-      <p>Onderwerp:</p>
-      <input type="text" required>
-      <button class="buttoncontact">Versturen</button>
-    </form>
-      <img 
-        src="img/contact.afbeelding.png"
-        alt="afbeelding_contact"
-        class="afbeeldingcontact"
-        width="80%"
-      />
-    </div>
+        <form action="contact.html">
+          <p>Voornaam:</p>
+          <input class="apptext" type="text" required />
+          <p>Achternaam:</p>
+          <input class="apptext" type="text" required />
+          <p>Geslacht: </p>
+          <div>
+            <input type="radio" name="genderselect" required>
+            <label for="gender1">Man</label><br>
+            <input type="radio" name="genderselect" required>
+            <label for="gender2">Vrouw</label><br>
+            <input class="apptext" type="radio" name="genderselect" required>
+            <label for="gender3">Anders</label><br>
+          </div>
+        
+          <p>Telefoonnummer: </p>
+            <input class="apptext" type="tel" pattern="[0-9]{10}" required>
+          <p>Email:</p>
+          <input class="apptext" type="email" required />
+          <p>Onderwerp:</p>
+          <input type="text" required />
+          <button class="buttoncontact">Versturen</button>
+        </form>
+        <img
+          src="img/contact.afbeelding.png"
+          alt="afbeelding_contact"
+          class="afbeeldingcontact"
+          width="80%"
+        />
+      </div>
     </section>
     <footer>
       <div class="footertext">

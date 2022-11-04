@@ -1,7 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   font-family: "Poppins", sans-serif;
   background-color: #00432e;
   font-size: 62, 5%;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 16rem;
 }
 
 ul {
@@ -14,6 +26,7 @@ ul {
   box-shadow: 0 8px 6px -6px black;
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 10vh;
 }
 
 li {
@@ -75,27 +88,35 @@ li a:hover {
   text-align: center;
   color: #ffffff;
   font-size: 20rem;
+  margin: 3vh;
 }
 
 section {
-  margin: 5vh 12vw;
   padding: 1.5vh 1.5vw;
   background-color: #ffffff;
   border: 0.2em solid #47843d;
   box-shadow: 0 0 20px black;
+  margin: 0 auto;
+  width: 64vw;
+  padding: 3vw;
+  margin-top: 8vh;
+  border-radius: 1rem;
+}
+
+.apptext {
+  margin-bottom: 3vh;
 }
 
 .h1homesection {
   border-radius: 25px;
-  background-color:#47843d;
+  background-color: #47843d;
   border-color: #005339;
   color: #ffffff;
   text-decoration: underline;
-  
 }
 
 section h1 {
- font-size: 3rem 
+  font-size: 3rem;
 }
 
 .h1allpages {
@@ -105,11 +126,16 @@ section h1 {
 section h2 {
   color: #006445;
   font-size: 1.5rem;
-  margin-top: 7vh;
   text-decoration: underline;
 }
 
-.button1, .button2 {
+section h3 {
+  font-style: italic;
+  color: #005339;
+}
+
+.button1,
+.button2 {
   padding: 1vh 1vw;
   background-color: #47843d;
   color: #ffffff;
@@ -118,8 +144,48 @@ section h2 {
   font-size: 1rem;
 }
 
-.button1:hover, .button2:hover {
+.button1 a,
+.button2 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button1:hover,
+.button2:hover {
   background-color: #006445;
+}
+
+.button-ed {
+  padding: 0.8vh 1vw;
+  background-color: #47843d;
+  color: #ffffff;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  box-shadow: 0 0 5px black;
+}
+
+.button-ed a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button-ed:hover {
+  background-color: #006445;
+}
+
+.four-buttons-education {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ed-video {
+  display: flex;
+  width: 60vw;
+  margin: auto;
+  border: 0.2em solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
 }
 
 .sectionhometext1 {
@@ -127,25 +193,33 @@ section h2 {
 }
 
 .sectionhometext2 {
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
   display: flex;
   background-color: #006445;
-  bottom: 0;
-  margin: 0;
   padding: 2vh;
   border-top: 0.2em solid #ffffff;
   box-shadow: 0 0 8px black;
   justify-content: space-evenly;
   color: #ffffff;
-  height: 25vh;
+  height: 20vh;
+  width: 100vw;
 }
 
 .footertoptext {
   text-decoration: underline;
   font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+.footertext {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .footerimage {
@@ -185,6 +259,7 @@ footer {
   width: 30vw;
   display: flex;
   align-items: center;
+  border-radius: 8px;
 }
 
 .aboutush1 {
@@ -193,6 +268,7 @@ footer {
 
 .contactdiv {
   display: flex;
+  justify-content: space-between ;
 }
 
 .buttoncontact {
@@ -204,19 +280,31 @@ footer {
   font-size: 1rem;
   margin-top: 2rem;
 }
+
+.studenthead {
+  display: flex;
+}
+.studenthead img {
+  display: flex;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
 .aboutusdiv {
   display: flex;
 }
 
 .aboutusimg {
- width: 40vw;
- display: flex;
- justify-content: flex-end;
+  width: 40vw;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .aboutusimg img {
   width: 40vw;
 }
+
 .aboutusbutton {
   padding: 1vh 1vw;
   background-color: #47843d;
@@ -225,10 +313,73 @@ footer {
   border-radius: 10px;
   font-size: 1rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .aboutusbutton a {
   text-decoration: none;
-  color: #ffffff  ;
+  color: #ffffff;
 }
 
+.tekstbram {
+  display: flex;
+  flex-direction: column;
+}
+
+.fotobram {
+  display: flex;
+  height: 50vh;
+  width: 50vw;
+}
+
+.appimage-text {
+  display: flex;
+}
+
+.appimage-text img {
+  border-radius: 1.5rem;
+}
+
+.canvash2 {
+  padding-top: 2rem;
+}
+
+.parentsimg {
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+}
+
+.parentsdiv {
+  display: flex;
+}
+
+.parentstext {
+  display: flex;
+  flex-direction: column;
+}
+
+.images-software {
+  display: flex;
+  justify-content: space-around;
+}
+
+table,
+th,
+tr {
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+thead {
+  color: #47843d;
+  text-decoration: underline;
+}
+
+.bpvtext {
+  margin-top: 4vh;
+}
+
+.apptext1 {
+  margin-top: 3vh;
+}
