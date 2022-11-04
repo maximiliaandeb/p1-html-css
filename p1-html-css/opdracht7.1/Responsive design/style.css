@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .rood {
     background-color: red;
     display: flex;
@@ -32,8 +33,54 @@ section {
 }
 
 .text {
-padding: 40;
-padding-left: 2vw ;
+    padding: 40;
+    padding-left: 2vw;
 }
 
+@media screen and (max-width: 768px) {
+    .rood {
+        background-color: pink;
+    }
 
+    .geel {
+        background-color: red;
+    }
+
+    .oranje {
+        background-color: blue;
+    }
+
+    .groen {
+        background-color: darkblue;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .rood {
+        background-color: darkblue;
+    }
+
+    .geel {
+        background-color: aqua;
+    }
+
+    .oranje {
+        background-color: pink;
+    }
+
+    .groen {
+        background-color: purple;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
