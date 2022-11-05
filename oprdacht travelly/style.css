@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62, 5%;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    color: white;
+    font-weight: 100;
+  }
+  
+  .navlogo {
+    font-family: "Pattaya", sans-serif;
+    font-size: 1rem;
+    margin-left: 5rem;
+  }
+  
+  .navitems {
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    font-weight: bold;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: #131c27;
+    list-style-type: none;
+    height: 10vh;
+    align-items: center;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sectionlimits {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+      url("./img/landing-page.jpg");
+    height: 90vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .sectionlimits h2 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  
+  .sectionlimits h3 {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 60vw;
+  }
+  
+  .sectionlimitsbutton {
+    background-color: #4c6e97;
+    color: white;
+    text-decoration: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border: none;
+  }
+  
+  .sectionlimitsbutton:hover {
+    background-color: #283e58;
+    transition-duration: 0.4s;
+  }
+  
+  .sectionexplore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+      url("./img/new-york-page.png");
+    height: 90vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5vw;
+    color: white;
+  }
+  
+  .sectionexplore h2 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    margin-bottom: 4vh;
+  }
+  
+  .sectionexplore h3 {
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+  
+  .sectionexperience {
+    background-color: #131c27;
+    color: white;
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .sectionexperience h2 {
+    font-size: 3.5rem;
+  }
+  
+  .sectionexperience h3 {
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+  
+  .sectioncards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .section-cards img {
+    height: 10px;
+  }
+  
+  .sectioncardsingle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 55vh;
+    width: 22vw;
+    box-shadow: 0 0 10px black;
+  }
+  
+  .sectioncardlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131c27;
+    height: 10vh;
+  }
+  
+  .sectioncardlogo img {
+    height: 50%;
+  }
+  
+  .sectioncardcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem;
+    min-height: 45vh;
+  }
+  
+  .sectioncardcontent h3 {
+    font-size: 1.8rem;
+  }
+  
+  .sectioncardcontent h4 {
+    font-size: 1.3rem;
+    font-weight: 200;
+  }
+  
+  footer {
+    display: flex;
+    height: 10vh;
+    background-color: #131c27;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .footerlogotag {
+    width: 45vw;
+  }
+  
+  .footersoc {
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+  }
+  
+  @media screen and (max-width: 576px) {
+    ul {
+      flex-direction: column;
+      height: 12vh;
+      padding: 1rem;
+    }
+  
+    .nav-travelly {
+      margin-left: 0;
+    }
+  
+    .nav-3-items {
+      width: 100vw;
+    }
+  
+    .section-travel-beyond-limits {
+      height: 130vh;
+    }
+  
+    .section-travel-beyond-limits h2 {
+      font-size: 2rem;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .section-travel-beyond-limits h3 {
+      font-size: 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .section-time-to-explore {
+      width: 95vw;
+      height: 130vh;
+    }
+  
+    .section-time-to-explore h2 {
+      font-size: 2rem;
+    }
+  
+    .section-time-to-explore h3 {
+      font-size: 1.3rem;
+      margin-right: 0.2rem;
+    }
+  
+    .section-perfect-travel-experience h2 {
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+  
+    .section-perfect-travel-experience h3 {
+      font-size: 1.2rem;
+      margin: 1rem;
+    }
+  
+    .section-cards {
+      flex-direction: column;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+    .section-card-single {
+      width: 70vw;
+      margin: 1rem;
+    }
+  
+    .section-card-content h3 {
+      font-size: 1.5rem;
+    }
+  
+    .section-card-content h4 {
+      font-size: 1.2rem;
+    }
+  
+    .section-card-content {
+      justify-content: space-evenly;
+    }
+  
+    footer {
+      flex-direction: column;
+      height: 14vh;
+    }
+  
+    .footer-travelly-tag {
+      width: 100vw;
+      text-align: center;
+      margin-top: 1rem;
+    }
+  
+    .footer-social {
+      width: 100vw;
+      justify-content: space-around;
+      margin-bottom: 1rem;
+    }
+  }
+  
